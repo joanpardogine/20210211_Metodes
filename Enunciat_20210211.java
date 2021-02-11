@@ -24,21 +24,24 @@ public class Enunciat_20210211 {
           
 6.0 p. TOTAL
 
-          
-          
-Per 4 punts, dins del main, desenvolupa el codi necessari per:
+(4 punts)
+
+Dins del main, desenvolupa el codi necessari per:
 
 Crear una matriu, les dimensions de la qual, li demanaràs a l'usuari,
-També li demanaràs a l'usuari si vol omplir la matriu amb majuscules, minuscules o 
-unitats (és a dir, enters d'un sol digit, valors entre 0 i 9 ambdòs inclosos).
+També li demanaràs a l'usuari si vol omplir la matriu amb majúscules, minúscules o 
+unitats (és a dir, enters d'un sol dígit, valors entre 0 i 9 ambdós inclosos).
 I en funció del que escolli l'usuari, i fent servir la funció aleatoriEntreDosNombres(minim,maxim)
 omple la matriu.
 Recorda que pots fer servir el codi de la taula ASCII per obtenir lletres majúscules, 
-lletres minuscules o nombres enters.
+lletres minúscules o nombres enters.
 
-Al final de l'execució d'aquest codi, li demanaras a l'usuari si vo tornar a 
-comenar, i si respon que si, repetiràs tot el desenvolupament, i si respon que no, mostraràs 
-un missatges de comiat i s'acabarà l'execució del programa.
+Al final de l'execució d'aquest codi, li demanaràs a l'usuari si vol tornar a 
+començar, i si respon que si, repetiràs tot el procés, i si respon que no, faràs 
+aparèixer un missatge de comiat i s'acabarà l'execució del programa.
+
+Fes servir totes les funcions que puguis.
+
 */
   
   public static void mostrarMissatgePerPantalla(String cadena) {
@@ -69,7 +72,7 @@ un missatges de comiat i s'acabarà l'execució del programa.
         cadenaLlegida = cadenaLlegida + caracterLlegit; 
       } else {
         if (caracterLlegit != '#') {
-          System.out.println("No �s lletra, torna-hi!");
+          System.out.println("No és lletra, torna-hi!");
         }
       }
     } while(caracterLlegit != '#');
